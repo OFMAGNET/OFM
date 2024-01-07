@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Popppins' ,sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: #FFBF00;
+}
+
+.we-offer{
+padding: 2rem 7%;
+
+}
+
+.we-offer h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #FFBF00;
+
+}
+.we-offer h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: darkred;
+}
+
+.main-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.inner-offer{
+    flex: 1 1 300px;
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: rgba(223, 220, 220, 0.2) 0px 2px 8px 0;
+}
+.inner-offer:hover{
+    box-shadow:#FFBF00 0px 5px 15px;
+}
+  .inner-offer img {
+      width: 100px;
+      align-items: center;
+      justify-content: center;
+    padding: 10px;
+    padding-left: 20px;
+
+  }
+ .inner-offer h2 {
+     font-size: 25px;
+     margin: 1rem 0;
+     color: #FFBF00;
+ }
+
+.inner-offer p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.inner-offer a {
+    padding: 1rem 2rem;
+    background: #FFBF00;
+    border-radius:  5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+    transition: .5s;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.inner-offer a:hover {
+    background:darkred;
+    border-radius: 0;
+}
+
+
+

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    height: 300vh;
+    background-color: black;
+    color: #fff;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float:right;
+    width: 40%;
+
+}
+
+.image-section img{
+    width: 70vh;
+    height: auto;
+    padding-top: 30vh;
+    border-radius: 10px;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #ffbf00;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #ffbf00;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.content-section .content h4{
+    margin-top: 20px;
+    color: #ffbf00;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+  
+
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+.content-section .social{
+    margin-top:  40px 40px;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
+.content-section .social i{
+    color: #ffbf00;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover{
+    color: darkred;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .image-section{
+        float: none;
+        width: 100%;
+   
+    }
+.image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 12px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+        
+    }
+}
+.btn-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn-box a{
+    position:relative;
+    background: #ffbf00;
+    color: #ffbf00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 7px;
+}
+
+.btn-box a:hover{
+    background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.25rem;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: black;
+}
+
+.btn-box a span{
+position: relative;
+z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
